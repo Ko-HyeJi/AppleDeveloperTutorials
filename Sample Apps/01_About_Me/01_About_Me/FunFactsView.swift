@@ -28,7 +28,7 @@ struct FunFactsView: View {
                     .font(.title)
                     .frame(maxWidth: 350, maxHeight: 300)
                     .overlay(RoundedRectangle(cornerRadius: 10)
-                        .stroke(.black, lineWidth: 1))
+                        .stroke(.gray, lineWidth: 1))
                     .padding([.top, .bottom], 60)
 
             }
@@ -41,7 +41,7 @@ struct FunFactsView: View {
             .background(lightGray)
             .cornerRadius(10)
             .overlay(RoundedRectangle(cornerRadius: 10)
-                .stroke(.black, lineWidth: 1))
+                .stroke(.gray, lineWidth: 1))
         }
         .padding()
     }
