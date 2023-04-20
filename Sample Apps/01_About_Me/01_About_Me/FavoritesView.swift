@@ -17,14 +17,16 @@ struct FavoritesView: View {
 
             Text("Hobbies")
                 .font(.title2)
-
+            
             HStack {
-                ForEach(info.hobbies, id: \.self) { hobby in
-                    Image(systemName: hobby)
-                        .resizable()
-                        .frame(maxWidth: 80, maxHeight: 60)
-                }
-                .padding()
+                ForEach(info.hobbies, id: \.self.0) { hobby in
+                    VStack {
+                        Image(systemName: hobby.1)
+                            .resizable()
+                            .frame(width: 40, height: 30)
+                        Text(hobby.0)
+                    }
+                }.padding()
             }
             .padding()
 
@@ -45,7 +47,7 @@ struct FavoritesView: View {
             HStack(spacing: 30) {
                 ForEach(info.colors, id: \.self) { color in
                     color
-                        .frame(width: 70, height: 70)
+                        .frame(width: 50, height: 50)
                         .cornerRadius(10)
                 }
             }

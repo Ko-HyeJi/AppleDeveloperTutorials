@@ -18,7 +18,7 @@ struct Info {
     let profile: String
     let name: String
     let story: String
-    let hobbies: [String]
+    let hobbies: [(String, String)]
     let foods: [String]
     let colors: [Color]
     let funFacts: [String]
@@ -40,44 +40,8 @@ Cadet "hyko"
 
 Apple Developer Academy
 Junior Learner "Hazzy"
-
-
-고혜지
-KO HYEJI
-
-1997. 10. 13.
-
-42 Seoul
-Cadet "hyko"
-
-Apple Developer Academy
-Junior Learner "Hazzy"
-
-
-고혜지
-KO HYEJI
-
-1997. 10. 13.
-
-42 Seoul
-Cadet "hyko"
-
-Apple Developer Academy
-Junior Learner "Hazzy"
-
-
-고혜지
-KO HYEJI
-
-1997. 10. 13.
-
-42 Seoul
-Cadet "hyko"
-
-Apple Developer Academy
-Junior Learner "Hazzy"
 """,
-    hobbies: ["figure.pool.swim", "tent.fill", "book.fill"],
+    hobbies: [("Swimming", "figure.pool.swim"), ("Camping", "tent.fill"), ("Reading", "book.fill")],
     foods: ["🥐", "🌮", "🍣"],
     colors: [Color.blue, Color.green, Color.gray],
     funFacts: [
