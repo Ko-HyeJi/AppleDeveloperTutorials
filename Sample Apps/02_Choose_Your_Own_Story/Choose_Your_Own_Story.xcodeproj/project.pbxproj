@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8BB8826C29EEC7B500E10895 /* 02_Choose_Your_Own_Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_Choose_Your_Own_Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB8826C29EEC7B500E10895 /* Choose_Your_Own_Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choose_Your_Own_Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB8826F29EEC7B500E10895 /* StoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryApp.swift; sourceTree = "<group>"; };
 		8BB8827129EEC7B500E10895 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		8BB8827329EEC7B600E10895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		8BB8826D29EEC7B500E10895 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BB8826C29EEC7B500E10895 /* 02_Choose_Your_Own_Story.app */,
+				8BB8826C29EEC7B500E10895 /* Choose_Your_Own_Story.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BB8826B29EEC7B500E10895 /* 02_Choose_Your_Own_Story */ = {
+		8BB8826B29EEC7B500E10895 /* Choose_Your_Own_Story */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BB8827A29EEC7B600E10895 /* Build configuration list for PBXNativeTarget "02_Choose_Your_Own_Story" */;
+			buildConfigurationList = 8BB8827A29EEC7B600E10895 /* Build configuration list for PBXNativeTarget "Choose_Your_Own_Story" */;
 			buildPhases = (
 				8BB8826829EEC7B500E10895 /* Sources */,
 				8BB8826929EEC7B500E10895 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = 02_Choose_Your_Own_Story;
+			name = Choose_Your_Own_Story;
 			productName = 02_Choose_Your_Own_Story;
-			productReference = 8BB8826C29EEC7B500E10895 /* 02_Choose_Your_Own_Story.app */;
+			productReference = 8BB8826C29EEC7B500E10895 /* Choose_Your_Own_Story.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8BB8826729EEC7B500E10895 /* Build configuration list for PBXProject "02_Choose_Your_Own_Story" */;
+			buildConfigurationList = 8BB8826729EEC7B500E10895 /* Build configuration list for PBXProject "Choose_Your_Own_Story" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BB8826B29EEC7B500E10895 /* 02_Choose_Your_Own_Story */,
+				8BB8826B29EEC7B500E10895 /* Choose_Your_Own_Story */,
 			);
 		};
 /* End PBXProject section */
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BB8826729EEC7B500E10895 /* Build configuration list for PBXProject "02_Choose_Your_Own_Story" */ = {
+		8BB8826729EEC7B500E10895 /* Build configuration list for PBXProject "Choose_Your_Own_Story" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BB8827829EEC7B600E10895 /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BB8827A29EEC7B600E10895 /* Build configuration list for PBXNativeTarget "02_Choose_Your_Own_Story" */ = {
+		8BB8827A29EEC7B600E10895 /* Build configuration list for PBXNativeTarget "Choose_Your_Own_Story" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BB8827B29EEC7B600E10895 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/kohyeji/Desktop/AppleDeveloperTutorials/Sample Apps/02_Choose_Your_Own_Story/Choose_Your_Own_Story.xcodeproj">
    </FileRef>
 </Workspace>
