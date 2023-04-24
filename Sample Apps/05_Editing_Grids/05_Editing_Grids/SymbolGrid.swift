@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct SymbolGrid: View {
+    let columnLayout = Array(repeating: GridItem(), count: 3)
+    let numberArr = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "*", "0", "#"]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            LazyVGrid(columns: columnLayout) {
+                ForEach(numberArr, id: \.self) { num in
+                    Text(num)
+                }
+                .padding()
+            }
         }
-        .padding()
     }
 }
 
