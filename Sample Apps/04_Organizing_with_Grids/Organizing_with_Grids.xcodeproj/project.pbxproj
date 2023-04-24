@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B02683B29F2B4FF005D0B92 /* 04_Organizing_with_Grids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 04_Organizing_with_Grids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B02683B29F2B4FF005D0B92 /* Organizing_with_Grids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organizing_with_Grids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B02683E29F2B4FF005D0B92 /* ColorGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridApp.swift; sourceTree = "<group>"; };
 		8B02684029F2B4FF005D0B92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B02684229F2B500005D0B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		8B02683C29F2B4FF005D0B92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B02683B29F2B4FF005D0B92 /* 04_Organizing_with_Grids.app */,
+				8B02683B29F2B4FF005D0B92 /* Organizing_with_Grids.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B02683A29F2B4FF005D0B92 /* 04_Organizing_with_Grids */ = {
+		8B02683A29F2B4FF005D0B92 /* Organizing_with_Grids */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B02684929F2B500005D0B92 /* Build configuration list for PBXNativeTarget "04_Organizing_with_Grids" */;
+			buildConfigurationList = 8B02684929F2B500005D0B92 /* Build configuration list for PBXNativeTarget "Organizing_with_Grids" */;
 			buildPhases = (
 				8B02683729F2B4FF005D0B92 /* Sources */,
 				8B02683829F2B4FF005D0B92 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = 04_Organizing_with_Grids;
+			name = Organizing_with_Grids;
 			productName = 04_Organizing_with_Grids;
-			productReference = 8B02683B29F2B4FF005D0B92 /* 04_Organizing_with_Grids.app */;
+			productReference = 8B02683B29F2B4FF005D0B92 /* Organizing_with_Grids.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B02683629F2B4FF005D0B92 /* Build configuration list for PBXProject "04_Organizing_with_Grids" */;
+			buildConfigurationList = 8B02683629F2B4FF005D0B92 /* Build configuration list for PBXProject "Organizing_with_Grids" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B02683A29F2B4FF005D0B92 /* 04_Organizing_with_Grids */,
+				8B02683A29F2B4FF005D0B92 /* Organizing_with_Grids */,
 			);
 		};
 /* End PBXProject section */
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B02683629F2B4FF005D0B92 /* Build configuration list for PBXProject "04_Organizing_with_Grids" */ = {
+		8B02683629F2B4FF005D0B92 /* Build configuration list for PBXProject "Organizing_with_Grids" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B02684729F2B500005D0B92 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B02684929F2B500005D0B92 /* Build configuration list for PBXNativeTarget "04_Organizing_with_Grids" */ = {
+		8B02684929F2B500005D0B92 /* Build configuration list for PBXNativeTarget "Organizing_with_Grids" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B02684A29F2B500005D0B92 /* Debug */,

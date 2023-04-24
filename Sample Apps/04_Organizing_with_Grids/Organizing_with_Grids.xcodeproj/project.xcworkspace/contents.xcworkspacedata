@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/kohyeji/Desktop/AppleDeveloperTutorials/Sample Apps/04_Organizing_with_Grids/Organizing_with_Grids.xcodeproj">
    </FileRef>
 </Workspace>
