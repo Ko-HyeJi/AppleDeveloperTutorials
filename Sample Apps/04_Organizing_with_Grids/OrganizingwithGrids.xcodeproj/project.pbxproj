@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BB8827029EEC7B500E10895 /* StoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8826F29EEC7B500E10895 /* StoryApp.swift */; };
-		8BB8827229EEC7B500E10895 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8827129EEC7B500E10895 /* StoryView.swift */; };
-		8BB8827429EEC7B600E10895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8827329EEC7B600E10895 /* Assets.xcassets */; };
-		8BB8827729EEC7B600E10895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8827629EEC7B600E10895 /* Preview Assets.xcassets */; };
-		8BB8827E29EEC93600E10895 /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8827D29EEC93600E10895 /* MyStory.swift */; };
-		8BB8828029EEC99E00E10895 /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8827F29EEC99E00E10895 /* StoryModels.swift */; };
-		8BB8828229EECBC000E10895 /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8828129EECBC000E10895 /* StoryPageView.swift */; };
+		8B02683F29F2B4FF005D0B92 /* ColorGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02683E29F2B4FF005D0B92 /* ColorGridApp.swift */; };
+		8B02684129F2B4FF005D0B92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02684029F2B4FF005D0B92 /* ContentView.swift */; };
+		8B02684329F2B500005D0B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B02684229F2B500005D0B92 /* Assets.xcassets */; };
+		8B02684629F2B500005D0B92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B02684529F2B500005D0B92 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8BB8826C29EEC7B500E10895 /* Choose_Your_Own_Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choose_Your_Own_Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BB8826F29EEC7B500E10895 /* StoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryApp.swift; sourceTree = "<group>"; };
-		8BB8827129EEC7B500E10895 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
-		8BB8827329EEC7B600E10895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8BB8827629EEC7B600E10895 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8BB8827D29EEC93600E10895 /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
-		8BB8827F29EEC99E00E10895 /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
-		8BB8828129EECBC000E10895 /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
+		8B02683B29F2B4FF005D0B92 /* OrganizingwithGrids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrganizingwithGrids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B02683E29F2B4FF005D0B92 /* ColorGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridApp.swift; sourceTree = "<group>"; };
+		8B02684029F2B4FF005D0B92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B02684229F2B500005D0B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B02684529F2B500005D0B92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BB8826929EEC7B500E10895 /* Frameworks */ = {
+		8B02683829F2B4FF005D0B92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8BB8826329EEC7B500E10895 = {
+		8B02683229F2B4FF005D0B92 = {
 			isa = PBXGroup;
 			children = (
-				8BB8826E29EEC7B500E10895 /* 02_Choose_Your_Own_Story */,
-				8BB8826D29EEC7B500E10895 /* Products */,
+				8B02683D29F2B4FF005D0B92 /* 04_Organizing_with_Grids */,
+				8B02683C29F2B4FF005D0B92 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8BB8826D29EEC7B500E10895 /* Products */ = {
+		8B02683C29F2B4FF005D0B92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BB8826C29EEC7B500E10895 /* Choose_Your_Own_Story.app */,
+				8B02683B29F2B4FF005D0B92 /* OrganizingwithGrids.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BB8826E29EEC7B500E10895 /* 02_Choose_Your_Own_Story */ = {
+		8B02683D29F2B4FF005D0B92 /* 04_Organizing_with_Grids */ = {
 			isa = PBXGroup;
 			children = (
-				8BB8827329EEC7B600E10895 /* Assets.xcassets */,
-				8BB8827D29EEC93600E10895 /* MyStory.swift */,
-				8BB8826F29EEC7B500E10895 /* StoryApp.swift */,
-				8BB8827129EEC7B500E10895 /* StoryView.swift */,
-				8BB8828129EECBC000E10895 /* StoryPageView.swift */,
-				8BB8827F29EEC99E00E10895 /* StoryModels.swift */,
-				8BB8827529EEC7B600E10895 /* Preview Content */,
+				8B02683E29F2B4FF005D0B92 /* ColorGridApp.swift */,
+				8B02684029F2B4FF005D0B92 /* ContentView.swift */,
+				8B02684229F2B500005D0B92 /* Assets.xcassets */,
+				8B02684429F2B500005D0B92 /* Preview Content */,
 			);
-			path = 02_Choose_Your_Own_Story;
+			path = 04_Organizing_with_Grids;
 			sourceTree = "<group>";
 		};
-		8BB8827529EEC7B600E10895 /* Preview Content */ = {
+		8B02684429F2B500005D0B92 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8BB8827629EEC7B600E10895 /* Preview Assets.xcassets */,
+				8B02684529F2B500005D0B92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BB8826B29EEC7B500E10895 /* Choose_Your_Own_Story */ = {
+		8B02683A29F2B4FF005D0B92 /* OrganizingwithGrids */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BB8827A29EEC7B600E10895 /* Build configuration list for PBXNativeTarget "Choose_Your_Own_Story" */;
+			buildConfigurationList = 8B02684929F2B500005D0B92 /* Build configuration list for PBXNativeTarget "OrganizingwithGrids" */;
 			buildPhases = (
-				8BB8826829EEC7B500E10895 /* Sources */,
-				8BB8826929EEC7B500E10895 /* Frameworks */,
-				8BB8826A29EEC7B500E10895 /* Resources */,
+				8B02683729F2B4FF005D0B92 /* Sources */,
+				8B02683829F2B4FF005D0B92 /* Frameworks */,
+				8B02683929F2B4FF005D0B92 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Choose_Your_Own_Story;
-			productName = 02_Choose_Your_Own_Story;
-			productReference = 8BB8826C29EEC7B500E10895 /* Choose_Your_Own_Story.app */;
+			name = OrganizingwithGrids;
+			productName = 04_Organizing_with_Grids;
+			productReference = 8B02683B29F2B4FF005D0B92 /* OrganizingwithGrids.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8BB8826429EEC7B500E10895 /* Project object */ = {
+		8B02683329F2B4FF005D0B92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					8BB8826B29EEC7B500E10895 = {
+					8B02683A29F2B4FF005D0B92 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 8BB8826729EEC7B500E10895 /* Build configuration list for PBXProject "Choose_Your_Own_Story" */;
+			buildConfigurationList = 8B02683629F2B4FF005D0B92 /* Build configuration list for PBXProject "OrganizingwithGrids" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 8BB8826329EEC7B500E10895;
-			productRefGroup = 8BB8826D29EEC7B500E10895 /* Products */;
+			mainGroup = 8B02683229F2B4FF005D0B92;
+			productRefGroup = 8B02683C29F2B4FF005D0B92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BB8826B29EEC7B500E10895 /* Choose_Your_Own_Story */,
+				8B02683A29F2B4FF005D0B92 /* OrganizingwithGrids */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8BB8826A29EEC7B500E10895 /* Resources */ = {
+		8B02683929F2B4FF005D0B92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB8827729EEC7B600E10895 /* Preview Assets.xcassets in Resources */,
-				8BB8827429EEC7B600E10895 /* Assets.xcassets in Resources */,
+				8B02684629F2B500005D0B92 /* Preview Assets.xcassets in Resources */,
+				8B02684329F2B500005D0B92 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BB8826829EEC7B500E10895 /* Sources */ = {
+		8B02683729F2B4FF005D0B92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB8827229EEC7B500E10895 /* StoryView.swift in Sources */,
-				8BB8828229EECBC000E10895 /* StoryPageView.swift in Sources */,
-				8BB8828029EEC99E00E10895 /* StoryModels.swift in Sources */,
-				8BB8827029EEC7B500E10895 /* StoryApp.swift in Sources */,
-				8BB8827E29EEC93600E10895 /* MyStory.swift in Sources */,
+				8B02684129F2B4FF005D0B92 /* ContentView.swift in Sources */,
+				8B02683F29F2B4FF005D0B92 /* ColorGridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8BB8827829EEC7B600E10895 /* Debug */ = {
+		8B02684729F2B500005D0B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		8BB8827929EEC7B600E10895 /* Release */ = {
+		8B02684829F2B500005D0B92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,14 +259,14 @@
 			};
 			name = Release;
 		};
-		8BB8827B29EEC7B600E10895 /* Debug */ = {
+		8B02684A29F2B500005D0B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"02_Choose_Your_Own_Story/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"04_Organizing_with_Grids/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -291,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hazzy.-2-Choose-Your-Own-Story";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazzy.-4-Organizing-with-Grids";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		8BB8827C29EEC7B600E10895 /* Release */ = {
+		8B02684B29F2B500005D0B92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"02_Choose_Your_Own_Story/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"04_Organizing_with_Grids/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -319,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hazzy.-2-Choose-Your-Own-Story";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazzy.-4-Organizing-with-Grids";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BB8826729EEC7B500E10895 /* Build configuration list for PBXProject "Choose_Your_Own_Story" */ = {
+		8B02683629F2B4FF005D0B92 /* Build configuration list for PBXProject "OrganizingwithGrids" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BB8827829EEC7B600E10895 /* Debug */,
-				8BB8827929EEC7B600E10895 /* Release */,
+				8B02684729F2B500005D0B92 /* Debug */,
+				8B02684829F2B500005D0B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BB8827A29EEC7B600E10895 /* Build configuration list for PBXNativeTarget "Choose_Your_Own_Story" */ = {
+		8B02684929F2B500005D0B92 /* Build configuration list for PBXNativeTarget "OrganizingwithGrids" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BB8827B29EEC7B600E10895 /* Debug */,
-				8BB8827C29EEC7B600E10895 /* Release */,
+				8B02684A29F2B500005D0B92 /* Debug */,
+				8B02684B29F2B500005D0B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8BB8826429EEC7B500E10895 /* Project object */;
+	rootObject = 8B02683329F2B4FF005D0B92 /* Project object */;
 }
